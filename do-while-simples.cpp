@@ -2,12 +2,13 @@
 using namespace std;
 
 int main() {
-	int i = 1;
-
+	int num,i=1;
+	cout<<"informe um numero inteiro: ";
+	cin>>num;
+	
 	do{
-	cout << i << endl;
-	i++;
-	} while(i<=5);
-   
+		cout<<num<<" x "<<" = "<<num*i<<endl;
+	}while(i<=10);
+		
     return 0;
 }
